@@ -80,6 +80,7 @@ input::placeholder {
     padding-top: 0.8em;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
+    color: black;
 
 }
 
@@ -547,16 +548,20 @@ footer {
 
 
     /* search bar mobile */
+    form {
+        width: 100%;
+    }
 
     .searchbar {
         background-color: white;
-        width: 95%;
+        width: 80%;
         height: 45px;
         display: flex;
         justify-content: center;
         margin-top: 2em;
         margin-bottom: 1em;
-        margin-left: 1em;
+        margin-left: auto;
+        margin-right: auto;
         border-radius: 12px;
         border: solid 1px #F2F2F2;
     }
@@ -564,9 +569,11 @@ footer {
 
     .buttondesktop {
         visibility: hidden;
+        display: none;
     }
 
     .buttonmobile {
+        display: block;
         visibility: visible;
         background-color: #0065FC;
         color: white;
@@ -576,6 +583,7 @@ footer {
         border-radius: 12px;
         border-style: none;
         filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+        margin: 0;
     }
 
 
@@ -587,8 +595,11 @@ footer {
         font-weight: bold;
         font-size: 1em;
         padding-left: 1em;
+        margin: 0;
         color: black;
     }
+
+    
 
 
     /* filters mobile */
