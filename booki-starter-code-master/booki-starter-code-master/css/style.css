@@ -92,16 +92,14 @@ input::placeholder {
 
 /* filtres desktop*/
 
-.filters span{
-    font-weight: bold;
+.filters {
+    display: flex;
 }
 
-.filtertitlemobile {
-    display: none;
-    visibility: hidden;
+.filters h2{
+    font-size: medium;
+    padding-top: 0.5em ;
 }
-
-
 
 .filters button{
     background-color: white;
@@ -111,6 +109,7 @@ input::placeholder {
     padding: 0.7em;
     border-radius: 20px;
     font-weight: bold;
+    display: inline-block;
 }
 
 .filters i {
@@ -554,7 +553,7 @@ footer {
 
     .searchbar {
         background-color: white;
-        width: 80%;
+        width: 85%;
         height: 45px;
         display: flex;
         justify-content: center;
@@ -605,13 +604,11 @@ footer {
     /* filters mobile */
 
     .filters {
-        margin: 0;
-    }
-
-    .filters span {
-        display: flex;
-        justify-content: flex-start;
-        padding: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        width: 400px;
+        display: block;
     }
 
     .filters-position {
@@ -622,17 +619,7 @@ footer {
     }
 
     .filters button {
-        width: 130px;
-        padding-left: 0.5em;
-    }
-
-    .filtertitledesktop {
-        display: none;
-        visibility: collapse;
-    }
-
-    .filtertitlemobile {
-        visibility: visible;
+        width: 35%;
     }
 
     /* cards hebergements and popular mobile */
