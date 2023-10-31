@@ -15,7 +15,7 @@
 
 .nav_list {
     position: absolute;
-    top: 1em;
+    top: 0.5em;
     right: 1.5em;  
     list-style: none;
 }
@@ -23,10 +23,12 @@
 .nav_link {
     margin: 1em;
     float: left;
+    padding-top: 1em;
+    margin-top: 0;
 }
 
-nav a:hover {
-    text-decoration: overline solid #0065FC;
+.nav_link:hover {
+    border-top: #0065FC 2px solid;
     color: #0065FC;
 }
 
@@ -537,11 +539,11 @@ footer {
 
     h2 {
         margin-top: 2em;
-        margin-left: 0.5em;
+        margin-left: 1em;
     }
 
     p {
-        margin-left: 1em;
+        margin-left: 1.5em;
 
     }
 
@@ -607,8 +609,9 @@ footer {
         margin-left: auto;
         margin-right: auto;
         height: 200px;
-        width: 400px;
+        width: 100%;
         display: block;
+        padding-left: 1em;
     }
 
     .filters-position {
@@ -619,7 +622,7 @@ footer {
     }
 
     .filters button {
-        width: 35%;
+        width: 40%;
     }
 
     /* cards hebergements and popular mobile */
