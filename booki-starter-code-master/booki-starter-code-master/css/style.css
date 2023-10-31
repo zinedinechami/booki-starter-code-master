@@ -519,18 +519,21 @@ footer {
     .nav_link {
         border-bottom: #F2F2F2 2px solid;
         display: block;
+        padding-top: 0;
     }
 
     /* hover effect */
 
     .nav_link :hover {
         text-decoration: none;
+
     }
 
     .nav_list li:hover {
         border-bottom: #0065FC 2px solid;
         text-decoration: none;
         color: #0065FC;
+        border-top: none;
     }
 
 
