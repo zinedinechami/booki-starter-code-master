@@ -37,10 +37,11 @@
 
 .searchbar {
     background-color: white;
-    width: 320px;
+    width: 310px;
     height: 45px;
     display: flex;
     margin-bottom: 1em;
+    margin-left: 0px;
     border-radius: 12px;
     border: solid 1px #F2F2F2;
 }
@@ -65,8 +66,8 @@ input::placeholder {
     color: white;
     font-weight: bold;
     font-size: 1em;
-    padding-left: 0.8em;
-    padding-right: 0.8em;
+    padding-left: 1em;
+    padding-right: 1em;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
 }
